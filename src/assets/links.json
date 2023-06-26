@@ -1,0 +1,60 @@
+{
+    "links": [
+        {
+            "title": "Plex",
+            "subtitle": "Media Platform",
+            "icon": "mdi-multimedia",
+            "link": "http://mcp:32400//"
+            },
+
+        {
+        "title": "Logitech Media Server",
+        "subtitle": "Music",
+        "icon": "mdi-music",
+        "link": "http://mcp:9000/"
+        },
+        {
+        "title": "Sonarr",
+        "subtitle": "TV Shows",
+        "icon": "mdi-television",
+        "link": "http://mcp:38989/"
+        },
+        {
+        "title": "Radarr",
+        "subtitle": "Movies",
+        "icon": "mdi-movie",  
+            "link": "http://mcp:7878/"
+        },
+        {
+            "title": "Overseerr",
+            "subtitle": "Requests",
+            "icon": "mdi-plus",
+            "link": "http://mcp:5055/"
+            },
+
+        {
+        "title": "QBittorrent",
+        "subtitle": "Torrent Downloads",
+        "icon": "mdi-download",
+        "link": "http://mcp:8080/"
+        },
+        {
+        "title": "Prowlarr",
+        "subtitle": "Indexer Management",
+        "icon": "mdi-text-box-search-outline",
+        "link": "http://mcp:9696/"
+        },
+        {
+        "title": "Kapowarr",
+        "subtitle": "Comic Search",
+        "icon": "mdi-thought-bubble-outline",
+        "link": "http://mcp:5656/"
+        },
+        {
+            "title": "Komga",
+            "subtitle": "Comic Reader",
+            "icon": "mdi-book-open",
+            "link": "http://mcp:7654/"
+            }
+    ]
+}

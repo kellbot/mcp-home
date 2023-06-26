@@ -20,40 +20,10 @@
 </template>
 
 <script setup>
+import {links} from '@/assets/links.json';
   function go(link) {
     window.location.href = link;
   }
 
-  let items = [
-  {
-      title: "Logitech Media Server",
-      subtitle: "Music",
-      icon: 'mdi-music',
-      link: 'http://mcp:9000/'
-    },
-    {
-      title: "Sonarr",
-      subtitle: "TV Shows",
-      icon: 'mdi-television',
-      link: 'http://mcp:38989/'
-    },
-    {
-      title: "Radarr",
-      subtitle: "Movies",
-      icon: 'mdi-movie',  
-          link: 'http://mcp:7878/'
-    },
-    {
-      title: "QBittorrent",
-      subtitle: "Torrent Downloads",
-      icon: "mdi-download",
-      link: 'http://mcp:8080/'
-    },
-    {
-      title: "Overseerr",
-      subtitle: "Requests",
-      icon: 'mdi-plus',
-      link: 'http://mcp:5055/'
-    }
-  ]
+  let items = links;
 </script>
